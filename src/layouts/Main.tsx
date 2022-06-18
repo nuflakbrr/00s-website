@@ -69,7 +69,7 @@ const Main = (props: layoutProps) => {
                 <tfoot>
                     <tr>
                         <td colSpan={2} align="center">
-                            <p>&copy; {year} <br /><br /></p>
+                            <p>&copy; {year} All rights reserved. <br /><br /></p>
                             <small>
                                 Design by <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="link">Nauval Azhar</a>
                             </small>
