@@ -20,9 +20,9 @@ const Profile: NextPage = () => {
 
                 <Image src={ImageMe} alt="Images" width={150} height={150} />
 
-                <h2>
+                <h3>
                     Junior Frontend Developer | Vocational High School Students
-                </h2>
+                </h3>
 
                 <p>
                     I love UI/UX and I also like writing a series of code to create websites. Or maybe you can call it a Website Developer. But the difference with Website Developer, I prefer to make a website on the Frontend.
