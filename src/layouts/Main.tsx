@@ -1,6 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
+
+import GameHouseImage from '../public/gamehouse.png';
 
 type layoutProps = {
     children: React.ReactNode;
@@ -38,8 +41,8 @@ const Main = (props: layoutProps) => {
                             {props.children}
                         </td>
                         <td width={250} valign="top">
-                            {/* <img src={imgAvatar} width="100" /> */}
-                            <p>Koala on Windows 7 is my favorite photo in the universe.</p>
+                            <Image src={GameHouseImage} width="100" height="80" alt="gamehouse img" />
+                            <p>Game House on Windows 7 is my favorite publisher game in my life.</p>
                             <Link href="/profile"><a>See my profile</a></Link>
                             <br />
                             <br />
