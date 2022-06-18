@@ -16,8 +16,12 @@ const Main = (props: layoutProps) => {
     return (
         <>
             <Head>
-                <meta name="google-site-verification" content="IoqwXa0jgdLrvXiqTt2gVyPCpMd80szFRn1cLEp8Ul4" />
-                <link rel="icon" href="/favicon-org.ico" />
+                <link rel="apple-touch-icon" sizes="76x76" href="/favicons/icon-192x192.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicons/icon-256x256.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicons/icon-384x384.png" />
+                <link rel="mask-icon" href="/favicons/icon-512x512" />
+                <meta name="msapplication-TileColor" content="#000000" />
+                <meta name="theme-color" content="#000000" />
             </Head>
             <table width={800} border={4} cellPadding={20} className="border-4">
                 <thead>
