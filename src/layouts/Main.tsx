@@ -54,13 +54,13 @@ const Main = (props: layoutProps) => {
                             <p>You can follow me on several of these platforms:</p>
                             <ul>
                                 <li>
-                                    <a href="https://github.com/nuflakbrr" target={"_blank"} rel="noreferrer">GitHub</a>
+                                    <a href="https://github.com/nuflakbrr" target={"_blank"} rel="noreferrer" className="link">GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/nuflakbrr" target={"_blank"} rel="noreferrer">Twiiter</a>
+                                    <a href="https://twitter.com/nuflakbrr" target={"_blank"} rel="noreferrer" className="link">Twiiter</a>
                                 </li>
                                 <li>
-                                    <a href="https://instagram.com/kbrnugroho" target={"_blank"} rel="noreferrer">Instagram</a>
+                                    <a href="https://instagram.com/kbrnugroho" target={"_blank"} rel="noreferrer" className="link">Instagram</a>
                                 </li>
                             </ul>
                         </td>
