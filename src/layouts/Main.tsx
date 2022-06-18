@@ -1,8 +1,12 @@
-import type { NextPage } from 'next';
+import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-const Main: NextPage = (props: any) => {
+type layoutProps = {
+    children: React.ReactNode;
+}
+
+const Main = (props: layoutProps) => {
     const year = new Date().getFullYear();
 
     return (
