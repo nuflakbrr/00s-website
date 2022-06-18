@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import GameHouseImage from '../public/gamehouse.png';
+import BackgroundImage from '../public/bg-image.png';
 
 type layoutProps = {
     children: React.ReactNode;
@@ -75,6 +76,9 @@ const Main = (props: layoutProps) => {
                 </tfoot>
             </table>
             <style jsx global>{`
+            body{
+                background-image: url(${BackgroundImage});
+            }
             .author{
                 color: darkred;
             }
