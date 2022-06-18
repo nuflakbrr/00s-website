@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
         <p>I thank you very much for taking the time to visit this website. A little story that when I created this website I had a lot of trouble finding references for how to make a website look in the 2000s. I say many thanks to <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="link">Naufal Azhar</a> who created the layout for this website.</p>
 
-        <p>Regards,<br /><b>Naufal Akbar Nugroho</b></p>
+        <p>Cheers,<br /><b>Naufal Akbar Nugroho</b></p>
       </Main>
     </>
   );
