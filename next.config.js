@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
-const withImages = require('next-images')
-const nextConfig = withImages({
+const nextConfig = {
   reactStrictMode: true,
   exportTrailingSlash: true,
   exportPathMap: function () {
@@ -13,6 +12,6 @@ const nextConfig = withImages({
       '/socialfeeds': { page: '/socialfeeds' },
     };
   }
-});
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
