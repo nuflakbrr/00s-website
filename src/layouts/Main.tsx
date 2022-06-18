@@ -46,7 +46,9 @@ const Main = (props: layoutProps) => {
                         <td width={250} valign="top">
                             <Image src={GameHouseImage} width="100" height="80" alt="gamehouse img" />
                             <p>Game House on Windows xp is my favorite publisher game in my life.</p>
-                            <Link href="/profile"><a>See my profile</a></Link>
+                            <Link href="/profile">
+                                <a className="link">See my profile</a>
+                            </Link>
                             <br />
                             <br />
                             <hr />
