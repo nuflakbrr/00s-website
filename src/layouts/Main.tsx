@@ -16,10 +16,10 @@ const Main = (props: layoutProps) => {
     return (
         <>
             <Head>
-                <link rel="apple-touch-icon" sizes="76x76" href="/favicons/icon-192x192.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/favicons/icon-256x256.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/favicons/icon-384x384.png" />
-                <link rel="mask-icon" href="/favicons/icon-512x512" />
+                <link rel="apple-touch-icon" sizes="76x76" href="/icon-192x192.png" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/icon-256x256.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/icon-384x384.png" />
+                <link rel="mask-icon" href="/icon-512x512" />
                 <meta name="msapplication-TileColor" content="#000000" />
                 <meta name="theme-color" content="#000000" />
             </Head>
@@ -35,7 +35,6 @@ const Main = (props: layoutProps) => {
                         <th colSpan={2}>
                             <Link href="/"><a>Home</a></Link>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <Link href="/profile"><a>Profile</a></Link>&nbsp;&nbsp;|&nbsp;&nbsp;
-                            <Link href="/projects"><a>Projects</a></Link>&nbsp;&nbsp;|&nbsp;&nbsp;
                             <Link href="/contact"><a>Contact</a></Link>
                         </th>
                     </tr>
@@ -73,7 +72,7 @@ const Main = (props: layoutProps) => {
                         <td colSpan={2} align="center">
                             <p>&copy; {year} <br /><br /></p>
                             <small>
-                                Design by <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="author">Nauval</a>
+                                Design by <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="author">Nauval Azhar</a>
                             </small>
                         </td>
                     </tr>
@@ -85,6 +84,7 @@ const Main = (props: layoutProps) => {
             }
             .author{
                 color: darkred;
+                text-decoration: underline;
             }
 			table {
 				background-color: #ffffff;
