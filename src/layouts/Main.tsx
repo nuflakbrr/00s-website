@@ -54,13 +54,13 @@ const Main = (props: layoutProps) => {
                             <p>You can follow me on several of these platforms:</p>
                             <ul>
                                 <li>
-                                    <a href="https://github.com/nuflakbrr">GitHub</a>
+                                    <a href="https://github.com/nuflakbrr" target={"_blank"} rel="noreferrer">GitHub</a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/nuflakbrr">Twiiter</a>
+                                    <a href="https://twitter.com/nuflakbrr" target={"_blank"} rel="noreferrer">Twiiter</a>
                                 </li>
                                 <li>
-                                    <a href="https://instagram.com/kbrnugroho">Instagram</a>
+                                    <a href="https://instagram.com/kbrnugroho" target={"_blank"} rel="noreferrer">Instagram</a>
                                 </li>
                             </ul>
                         </td>
@@ -71,7 +71,7 @@ const Main = (props: layoutProps) => {
                         <td colSpan={2} align="center">
                             <p>&copy; {year} <br /><br /></p>
                             <small>
-                                Design by <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="author">Nauval Azhar</a>
+                                Design by <a href="https://github.com/nauvalazhar" target={"_blank"} rel="noreferrer" className="link">Nauval Azhar</a>
                             </small>
                         </td>
                     </tr>
@@ -81,7 +81,7 @@ const Main = (props: layoutProps) => {
             body{
                 background-image: url(${BackgroundImage});
             }
-            .author{
+            .link{
                 color: darkred;
                 text-decoration: underline;
             }
